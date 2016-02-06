@@ -1,5 +1,5 @@
 
-<html>
+
 require 'sinatra'
 
 
