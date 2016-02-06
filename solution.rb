@@ -1,7 +1,10 @@
+
+<html>
 require 'sinatra'
 
-get '/:nombre' do
-<h1>  "Hola #{params[:nombre]}" </h1>
 
- 
+get '/:nombre' do
+"Hola #{params[:nombre]}"
+
+
 end
