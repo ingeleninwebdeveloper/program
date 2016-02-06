@@ -1,4 +1,13 @@
+require 'sinatra'
+require 'sinatra-arg'
 
+get '/maker/:name' do
+  erb "Hello #{arg(1).capitalize}"
+end
+
+
+
+=begin
 
 
 require 'sinatra'
@@ -25,3 +34,4 @@ get '/:nombre' do
 
 
 end
+=end
