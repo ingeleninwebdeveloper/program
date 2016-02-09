@@ -6,7 +6,7 @@ require 'sinatra'
 get '/maker/:name' do
   
 
-  "Hola #{params[:name]}"
+  "Hola #{params[:name].capitalize}"
 end
 
 
