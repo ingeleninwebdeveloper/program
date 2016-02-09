@@ -1,3 +1,19 @@
+
+require 'sinatra'
+
+
+
+get '/maker/:name' do
+  
+
+  "Hola #{params[:name]}"
+end
+
+
+
+
+
+=begin
 require 'sinatra'
 require 'sinatra-arg'
 
