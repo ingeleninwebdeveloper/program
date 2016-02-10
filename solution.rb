@@ -3,7 +3,7 @@ require 'sinatra'
 
 
 
-get '/maker/:name' do
+get '/makers/:name' do
   
 
   "Hola #{params[:name].capitalize}!"
