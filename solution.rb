@@ -1,4 +1,17 @@
+require 'sinatra'
 
+get '/' do
+	"HcUy6Re2LLBRtj"
+
+end
+
+
+
+
+
+
+
+=begin
 require 'sinatra'
 
 
@@ -11,4 +24,4 @@ end
 
 
 
-
+=end
